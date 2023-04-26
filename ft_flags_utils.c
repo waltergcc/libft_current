@@ -6,11 +6,11 @@
 /*   By: wcorrea- <wcorrea-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 21:43:50 by wcorrea-          #+#    #+#             */
-/*   Updated: 2023/04/20 03:20:08 by wcorrea-         ###   ########.fr       */
+/*   Updated: 2023/04/27 00:25:15 by wcorrea-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
 int	ft_print_zero_nbr(int n, t_flags *flags)
 {

@@ -6,11 +6,11 @@
 /*   By: wcorrea- <wcorrea-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/15 17:56:42 by wcorrea-          #+#    #+#             */
-/*   Updated: 2023/04/20 03:51:00 by wcorrea-         ###   ########.fr       */
+/*   Updated: 2023/04/27 00:24:47 by wcorrea-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
 int	ft_nbrlen(unsigned int n, unsigned int base)
 {
