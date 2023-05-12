@@ -6,7 +6,7 @@
 #    By: wcorrea- <wcorrea-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/14 01:34:02 by wcorrea-          #+#    #+#              #
-#    Updated: 2023/04/27 00:23:07 by wcorrea-         ###   ########.fr        #
+#    Updated: 2023/05/12 11:01:37 by wcorrea-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,7 +50,7 @@ RM = rm -f
 CFLAGS = -Wall -Wextra -Werror
 INCLUDE = -I .
 
-.o:.c
+.c.o:
 		${CC} ${CFLAGS} ${INCLUDE} -c $< -o ${<:.c=.o}
 
 $(NAME): ${OBJS}
